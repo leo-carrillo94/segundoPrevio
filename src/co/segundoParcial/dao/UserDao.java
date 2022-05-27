@@ -115,10 +115,8 @@ public class UserDao {
 					
 					Integer id = rs.getInt("id");
 					String email = rs.getString("email");
-					user = new User(id, username, pass, email);
-					
-				}
-				
+					user = new User(id, username, pass, email);			
+				}		
 			}			
 		}catch(SQLException e) {
 			
