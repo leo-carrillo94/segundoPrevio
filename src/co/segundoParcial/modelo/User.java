@@ -12,9 +12,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor //constructor completo
 public class User implements Serializable {
 
-	public Integer id;
-	public String username;
-	public String pass;
-	public String email;
+	private Integer id;
+	private String username;
+	private String pass;
+	private String email;
 
 }

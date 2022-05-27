@@ -17,7 +17,7 @@ public class Bill implements Serializable {
 	private Integer user_id;
 	private Double value;
 	private Integer type;
-	private String observacion;
+	private String observation;
 	
 	
 
